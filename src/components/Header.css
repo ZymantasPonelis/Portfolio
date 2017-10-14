@@ -1,0 +1,159 @@
+header {
+  height: 100vh;
+  padding: 0 20px;
+  background-image: url('../assets/maxresdefault.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 2px 3px #556b8e; /*sharp shadow*/
+  /*text-shadow: 0px 2px 15px #556b8e; /*soft shadow*/
+}
+
+nav {
+  margin: 15px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid;
+  width: 280px;
+}
+
+nav a {
+  padding: 10px 8px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 3px solid transparent;
+  transition: 200ms;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+}
+
+nav a:nth-child(2) {
+  margin: 0 10px;
+}
+
+nav a:hover {
+  cursor: pointer;
+  padding: 10px 8px 4px;
+  border-color: #fff;
+}
+
+.name,
+.tagline {
+  margin: 0;
+}
+
+.name {
+  font-size: 66px;
+  padding-top: 100px;
+  margin-bottom: -10px;
+}
+
+.tagline {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.thank-you {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: #7AD69C;
+  color: #01210d;
+  font-size: 22px;
+  font-weight: 300;
+  text-shadow: 0 0 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  animation: slideIn 3.5s forwards;
+}
+
+.thank-you span {
+  font-weight: 600;
+}
+
+#mail-icon {
+  fill: #01210d;
+  height: 34px;
+  margin-right: 3px;
+  margin-bottom: -1px;
+}
+
+.web-links.header {
+  margin: 8px auto 5px;
+  width: 150px;
+}
+
+.web-links.header #github,
+.web-links.header #linkedin,
+.web-links.header #resume {
+  height: 30px;
+  fill: #fff;
+  filter: drop-shadow(0px 2px 3px #556b8e);
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    top: -70px;
+  }
+  10% {
+    opacity: 1;
+    top: -70px;
+  }
+  25% {
+    top: 0;
+  }
+  80% {
+    opacity: 1;
+    top: 0;
+  }
+  100% {
+    display: none;
+    top: -60px;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+
+  .tagline {
+    font-size: 20px;
+  }
+}
+
+/*iPhone 6*/
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+      background-attachment: inherit;
+    }
+}
+
+/*iPhone 6+*/
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    header {
+      background-attachment: inherit;
+    }
+}
