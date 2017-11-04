@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Work Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:700');
 
 * {
@@ -8,7 +8,7 @@
 
 body {
   margin: 0 0 80px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   background-color: #5C7CA8;
   color: #212121;
 }

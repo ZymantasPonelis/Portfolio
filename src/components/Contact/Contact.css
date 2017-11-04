@@ -1,0 +1,49 @@
+.contact {
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-msg {
+  max-width: 400px;
+  margin: 0 auto 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 18px;
+}
+
+.web-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 100px;
+}
+
+.web-links a {
+  border: none;
+}
+
+.web-links svg {
+  height: 40px;
+  fill: #000000;
+  transition: 200ms;
+}
+
+.web-links svg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#github:hover {
+  fill: #0077b5;
+}
+
+#linkedin:hover {
+  fill: #0077b5;
+}
+
+@media (max-width: 800px) {
+  .web-links {
+    margin-top: 30px;
+  }
+}
