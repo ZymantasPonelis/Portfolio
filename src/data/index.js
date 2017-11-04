@@ -20,6 +20,16 @@ const Data = [
     liveLink: 'https://reactpost.herokuapp.com/',
     description:
       'Fullstack web blog app built in <strong>React.js</strong> & <strong>Redux.js</strong> & <strong>Node.js backend </strong> with protected routes on front-end and back end '
+  },
+  {
+    name: 'React youtube api app',
+    screenshot:
+      'https://raw.githubusercontent.com/ZymantasPonelis/Youtube_search/master/public/screenshoot.png',
+    altText: 'React app with youtube api ',
+    repoLink: 'https://github.com/ZymantasPonelis/Youtube_search',
+    liveLink: 'https://zymantasponelis.github.io/Youtube_search/',
+    description:
+      'Simple app built in <strong>React.js</strong> You can search and watch youtube videos'
   }
 ];
 
