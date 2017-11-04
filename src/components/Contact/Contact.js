@@ -1,6 +1,6 @@
-import React from "react";
-import Scroll from "react-scroll";
-import "./Contact.css";
+import React from 'react';
+import Scroll from 'react-scroll';
+import './Contact.css';
 
 const Element = Scroll.Element;
 
@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <Element name="contact">
       <section id="contact" className="contact">
-        <h2 className="section-heading">{"< Contact />"}</h2>
+        <h2 className="section-heading">{'< Contact />'}</h2>
         <p>Find me on GitHub & LinkedIn</p>
         <div className="web-links">
           <a
@@ -28,7 +28,7 @@ const Contact = () => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/zymantas-ponelis"
+            href="https://linkedin.com/in/žymantas-ponelis"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="contact-msg">
           <p>
             Send me an email at
-            <a href="mailto:zymantaspon@gmail.com">:{' '}zymantaspon@gmail.com</a>
+            <a href="mailto:zymantaspon@gmail.com">: zymantaspon@gmail.com</a>
           </p>
         </div>
       </section>

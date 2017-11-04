@@ -29,7 +29,7 @@ const Header = () => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/%C5%BEymantas-ponelis-8a3975131/"
+            href="https://linkedin.com/in/žymantas-ponelis"
             rel="noopener noreferrer"
             target="_blank"
           >

@@ -2,7 +2,6 @@ import React from 'react';
 import './Project.css';
 
 const Project = props => {
-  console.log(props);
   return (
     <div className="project-card">
       <div className="card-image">
